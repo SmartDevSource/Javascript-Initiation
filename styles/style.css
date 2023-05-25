@@ -1,0 +1,86 @@
+.content{
+  overflow: auto;
+}
+
+body{
+  user-select: none;
+}
+
+bigtitle{
+  color: rgb(82, 82, 82);
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size : 40px;
+  padding : 10px;
+  border-radius: 10px;
+  margin: 200px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+  font-size: 18px;
+  transition: .3s;
+}
+
+a:hover{
+  font-size: 22px;
+  transition: .3s;
+}
+
+.alert-span{
+  background-color: antiquewhite;
+  color:rgb(92, 92, 92);
+  margin-left: 45%;
+  margin-right: 45%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.text-orange{
+  color:orange;
+  user-select: text;
+}
+
+.btn-warning{
+  padding : 10px;
+  color:white;
+  background-color:orange;
+  border : 0px;
+  border-radius:10px;
+  transition: .3s;
+  font-size : 18px;
+}
+
+.btn-warning:hover{
+  transition: .3s;
+  font-size: 22px;
+}
+
+.btn-info{
+  padding : 10px;
+  color:white;
+  background-color:rgb(110, 175, 250);
+  border : 0px;
+  border-radius:10px;
+  transition: .3s;
+  font-size : 18px;
+}
+
+.btn-info:hover{
+  background-color:rgb(62, 152, 255);
+}
+
+
+.custom-input{
+  border-radius: 12px;
+  padding : 6px;
+}
+
+.custom-input:hover{
+  background-color: rgb(255, 255, 226);
+}
+
+.custom-input::selection{
+  background-color: rgb(206, 203, 203);
+}
